@@ -1,0 +1,11 @@
+# Node / JS
+node_modules/
+dist/
+
+# korisno dodati i ovo za tipične projekte
+.env
+.DS_Store
+.vscode/
+coverage/
+npm-debug.log*
+yarn-error.log*
