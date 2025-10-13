@@ -1,0 +1,13 @@
+{
+  "name": "kali-api",
+  "version": "1.0.0",
+  "description": "kali linux commands api's",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "license": "ISC"
+}
