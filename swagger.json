@@ -1,0 +1,25 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Kali API",
+    "description": "API za Kali Linux komande",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Test ruta",
+        "responses": {
+          "200": {
+            "description": "API radi"
+          }
+        }
+      }
+    }
+  }
+}
